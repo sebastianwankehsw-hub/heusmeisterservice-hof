@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hausmeisterservice Hof – Sebastian Wanke | Objektbetreuung, Gartenpflege, Winterdienst</title>
+  <meta name="description" content="Ihr zuverlässiger Hausmeisterservice in Hof und Umgebung. Angebote: Objektbetreuung, Gartenpflege, Winterdienst, Wohnungsauflösungen, Kleinreparaturen und mehr. Jetzt anfragen!" />
+  <meta name="keywords" content="Hausmeisterservice Hof, Objektbetreuung Hof, Gartenpflege Hof, Winterdienst Hof, Wohnungsauflösung Hof, Entrümpelung Hof, Kleinreparaturen Hof" />
+  <meta name="author" content="Sebastian Wanke" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.hausmeisterservice-hof.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Hausmeisterservice Hof – Sebastian Wanke" />
+  <meta property="og:description" content="Zuverlässiger Hausmeisterservice in Hof und Umgebung. Gartenpflege, Winterdienst, Wohnungsauflösungen und mehr." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.hausmeisterservice-hof.com/" />
+
+  <!-- Structured Data (Local Business) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Hausmeisterservice Hof – Sebastian Wanke",
+    "description": "Zuverlässiger Hausmeisterservice in Hof und Umgebung",
+    "telephone": "+4917642974935",
+    "email": "info@hausmeisterservice-hof.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Leupoldsgrün",
+      "addressRegion": "Bayern",
+      "addressCountry": "DE"
+    },
+    "areaServed": ["Hof", "Rehau", "Münchberg", "Naila", "Selb"],
+    "url": "https://www.hausmeisterservice-hof.com"
+  }
+  </script>
+
+  <style>
+    /* ===== RESET & BASE ===== */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --primary: #1a5c96;
+      --primary-dark: #0f3d6b;
+      --accent: #f0a500;
+      --text: #1e2430;
+      --text-light: #5a6375;
+      --bg: #ffffff;
+      --bg-section: #f5f7fa;
+      --border: #e2e6ed;
+      --radius: 10px;
+      --shadow: 0 4px 24px rgba(0,0,0,0.09);
+      --transition: 0.25s ease;
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.65;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+    .container { max-width: 1140px; margin: 0 auto; padding: 0 20px; }
+    .btn {
+      display: inline-block;
+      padding: 14px 32px;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all var(--transition);
+      border: 2px solid transparent;
+    }
+    .btn-primary {
+      background: var(--accent);
+      color: #fff;
+    }
+    .btn-primary:hover { background: #d4920a; transform: translateY(-2px); }
+    .btn-outline {
+      background: transparent;
+      border-color: #fff;
+      color: #fff;
+    }
+    .btn-outline:hover { background: #fff; color: var(--primary); }
+    .section-label {
+      display: inline-block;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--primary);
+      margin-bottom: 10px;
+    }
+    .section-title {
+      font-size: clamp(1.6rem, 3vw, 2.4rem);
+      font-weight: 800;
+      color: var(--text);
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+    .section-sub {
+      color: var(--text-light);
+      font-size: 1.05rem;
+      max-width: 560px;
+    }
+
+    /* ===== HEADER / NAV ===== */
+    header {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 1000;
+      background: rgba(255,255,255,0.97);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--border);
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 70px;
+    }
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .nav-logo-icon {
+      width: 42px; height: 42px;
+      background: var(--primary);
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      color: #fff;
+      font-size: 1.3rem;
+    }
+    .nav-logo-text strong {
+      display: block;
+      font-size: 1rem;
+      font-weight: 800;
+      color: var(--text);
+      line-height: 1.1;
+    }
+    .nav-logo-text span {
+      font-size: 0.75rem;
+      color: var(--text-light);
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      list-style: none;
+    }
+    .nav-links a {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--text-light);
+      transition: color var(--transition);
+    }
+    .nav-links a:hover { color: var(--primary); }
+    .nav-cta { display: flex; align-items: center; gap: 16px; }
+    .nav-phone {
+      font-weight: 700;
+      color: var(--primary);
+      font-size: 0.95rem;
+    }
+    .nav-phone:hover { color: var(--primary-dark); }
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      padding: 4px;
+    }
+    .hamburger span {
+      display: block;
+      width: 24px; height: 2px;
+      background: var(--text);
+      border-radius: 2px;
+      transition: all var(--transition);
+    }
+    .mobile-menu {
+      display: none;
+      position: fixed;
+      top: 70px; left: 0; right: 0;
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      padding: 20px;
+      z-index: 999;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    }
+    .mobile-menu.open { display: block; }
+    .mobile-menu ul { list-style: none; }
+    .mobile-menu ul li a {
+      display: block;
+      padding: 12px 0;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      color: var(--text);
+    }
+    .mobile-menu ul li:last-child a { border-bottom: none; }
+
+    /* ===== HERO ===== */
+    .hero {
+      min-height: 100vh;
+      background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 50%, #2e7dd4 100%);
+      display: flex;
+      align-items: center;
+      padding-top: 70px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+      padding: 80px 0;
+    }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255,255,255,0.15);
+      border: 1px solid rgba(255,255,255,0.25);
+      border-radius: 50px;
+      padding: 6px 16px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 24px;
+    }
+    .hero-badge::before { content: '✓'; color: var(--accent); }
+    .hero h1 {
+      font-size: clamp(2rem, 4.5vw, 3.4rem);
+      font-weight: 900;
+      color: #fff;
+      line-height: 1.1;
+      margin-bottom: 20px;
+    }
+    .hero h1 span { color: var(--accent); }
+    .hero-desc {
+      font-size: 1.1rem;
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 36px;
+      max-width: 480px;
+    }
+    .hero-actions { display: flex; gap: 16px; flex-wrap: wrap; }
+    .hero-stats {
+      display: flex;
+      gap: 32px;
+      margin-top: 48px;
+      padding-top: 32px;
+      border-top: 1px solid rgba(255,255,255,0.15);
+    }
+    .hero-stat strong {
+      display: block;
+      font-size: 1.8rem;
+      font-weight: 900;
+      color: #fff;
+    }
+    .hero-stat span {
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.7);
+    }
+    .hero-visual {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .hero-card {
+      background: rgba(255,255,255,0.1);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: var(--radius);
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      color: #fff;
+      transition: transform var(--transition);
+    }
+    .hero-card:hover { transform: translateX(6px); }
+    .hero-card-icon {
+      width: 48px; height: 48px;
+      background: rgba(255,255,255,0.15);
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.4rem;
+      flex-shrink: 0;
+    }
+    .hero-card-text strong { display: block; font-weight: 700; margin-bottom: 2px; }
+    .hero-card-text span { font-size: 0.83rem; color: rgba(255,255,255,0.75); }
+
+    /* ===== TRUST BAR ===== */
+    .trust-bar {
+      background: var(--primary-dark);
+      padding: 18px 0;
+    }
+    .trust-bar-inner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 48px;
+      flex-wrap: wrap;
+    }
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: rgba(255,255,255,0.85);
+      font-size: 0.88rem;
+      font-weight: 600;
+    }
+    .trust-item::before {
+      content: '✓';
+      color: var(--accent);
+      font-weight: 800;
+    }
+
+    /* ===== SERVICES ===== */
+    .services {
+      padding: 100px 0;
+      background: var(--bg-section);
+    }
+    .services-header { text-align: center; margin-bottom: 60px; }
+    .services-header .section-sub { margin: 0 auto; }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 24px;
+    }
+    .service-card {
+      background: #fff;
+      border-radius: var(--radius);
+      padding: 32px 28px;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+      transition: all var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+    .service-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform var(--transition);
+    }
+    .service-card:hover { transform: translateY(-6px); box-shadow: 0 12px 40px rgba(0,0,0,0.13); }
+    .service-card:hover::before { transform: scaleX(1); }
+    .service-icon {
+      width: 60px; height: 60px;
+      background: linear-gradient(135deg, var(--primary), #2e7dd4);
+      border-radius: 14px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.6rem;
+      margin-bottom: 20px;
+    }
+    .service-card h3 {
+      font-size: 1.15rem;
+      font-weight: 800;
+      margin-bottom: 10px;
+      color: var(--text);
+    }
+    .service-card p {
+      font-size: 0.9rem;
+      color: var(--text-light);
+      line-height: 1.6;
+    }
+    .service-card ul {
+      list-style: none;
+      margin-top: 14px;
+    }
+    .service-card ul li {
+      font-size: 0.85rem;
+      color: var(--text-light);
+      padding: 3px 0;
+      padding-left: 18px;
+      position: relative;
+    }
+    .service-card ul li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    /* ===== WHY US ===== */
+    .why {
+      padding: 100px 0;
+      background: var(--bg);
+    }
+    .why-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+    }
+    .why-features {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      margin-top: 40px;
+    }
+    .why-feature {
+      display: flex;
+      gap: 18px;
+      align-items: flex-start;
+    }
+    .why-feature-icon {
+      width: 48px; height: 48px;
+      background: linear-gradient(135deg, #e8f0fb, #c8d8f0);
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.3rem;
+      flex-shrink: 0;
+    }
+    .why-feature-text h4 { font-weight: 700; margin-bottom: 4px; }
+    .why-feature-text p { font-size: 0.9rem; color: var(--text-light); }
+    .why-visual {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    .why-stat-card {
+      background: var(--bg-section);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px 22px;
+      text-align: center;
+    }
+    .why-stat-card:first-child {
+      grid-column: span 2;
+      background: linear-gradient(135deg, var(--primary), #2e7dd4);
+      border-color: transparent;
+      color: #fff;
+    }
+    .why-stat-card strong {
+      display: block;
+      font-size: 2.4rem;
+      font-weight: 900;
+      color: var(--primary);
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+    .why-stat-card:first-child strong { color: #fff; font-size: 3rem; }
+    .why-stat-card span { font-size: 0.85rem; color: var(--text-light); }
+    .why-stat-card:first-child span { color: rgba(255,255,255,0.8); }
+
+    /* ===== EINSATZGEBIET ===== */
+    .area {
+      padding: 80px 0;
+      background: var(--bg-section);
+      text-align: center;
+    }
+    .area-header { margin-bottom: 40px; }
+    .area-tags {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 30px;
+    }
+    .area-tag {
+      background: #fff;
+      border: 2px solid var(--border);
+      border-radius: 50px;
+      padding: 10px 24px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--text);
+      transition: all var(--transition);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .area-tag::before { content: '📍'; font-size: 0.8rem; }
+    .area-tag:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+      background: #e8f0fb;
+    }
+
+    /* ===== CONTACT ===== */
+    .contact {
+      padding: 100px 0;
+      background: var(--bg);
+    }
+    .contact-inner {
+      display: grid;
+      grid-template-columns: 1fr 1.4fr;
+      gap: 60px;
+      align-items: start;
+    }
+    .contact-info h2 { margin-bottom: 16px; }
+    .contact-info p { color: var(--text-light); margin-bottom: 36px; }
+    .contact-items { display: flex; flex-direction: column; gap: 20px; }
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 18px 20px;
+      background: var(--bg-section);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+    }
+    .contact-item-icon {
+      width: 46px; height: 46px;
+      background: linear-gradient(135deg, var(--primary), #2e7dd4);
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.2rem;
+      flex-shrink: 0;
+    }
+    .contact-item-text span {
+      display: block;
+      font-size: 0.78rem;
+      color: var(--text-light);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 2px;
+    }
+    .contact-item-text a, .contact-item-text strong {
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: var(--text);
+    }
+    .contact-item-text a:hover { color: var(--primary); }
+    .contact-form {
+      background: var(--bg-section);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 40px;
+      box-shadow: var(--shadow);
+    }
+    .contact-form h3 {
+      font-size: 1.3rem;
+      font-weight: 800;
+      margin-bottom: 24px;
+      color: var(--text);
+    }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .form-group { margin-bottom: 18px; }
+    .form-group label {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 12px 16px;
+      border: 1.5px solid var(--border);
+      border-radius: 6px;
+      font-size: 0.92rem;
+      font-family: inherit;
+      color: var(--text);
+      background: #fff;
+      transition: border-color var(--transition);
+      outline: none;
+    }
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus { border-color: var(--primary); }
+    .form-group textarea { resize: vertical; min-height: 120px; }
+    .form-submit { width: 100%; padding: 15px; background: var(--primary); color: #fff; border: none; border-radius: 6px; font-size: 1rem; font-weight: 700; cursor: pointer; transition: all var(--transition); }
+    .form-submit:hover { background: var(--primary-dark); transform: translateY(-2px); }
+    .form-note { font-size: 0.78rem; color: var(--text-light); margin-top: 12px; text-align: center; }
+
+    /* ===== FOOTER ===== */
+    footer {
+      background: var(--text);
+      color: rgba(255,255,255,0.75);
+      padding: 60px 0 30px;
+    }
+    .footer-inner {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr;
+      gap: 48px;
+      margin-bottom: 40px;
+    }
+    .footer-brand p { font-size: 0.88rem; margin-top: 12px; line-height: 1.7; }
+    .footer-logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 4px;
+    }
+    .footer-logo-icon {
+      width: 38px; height: 38px;
+      background: var(--primary);
+      border-radius: 7px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.1rem;
+    }
+    .footer-logo-text strong { display: block; color: #fff; font-size: 0.95rem; }
+    .footer-logo-text span { font-size: 0.72rem; }
+    .footer-col h4 { color: #fff; font-size: 0.9rem; font-weight: 700; margin-bottom: 16px; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+    .footer-col ul li a { font-size: 0.85rem; transition: color var(--transition); }
+    .footer-col ul li a:hover { color: #fff; }
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.1);
+      padding-top: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-size: 0.82rem;
+    }
+    .footer-bottom a { color: rgba(255,255,255,0.6); }
+    .footer-bottom a:hover { color: #fff; }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 900px) {
+      .hero-inner { grid-template-columns: 1fr; gap: 40px; padding: 60px 0; }
+      .hero-visual { display: none; }
+      .why-inner { grid-template-columns: 1fr; gap: 40px; }
+      .why-visual { order: -1; }
+      .contact-inner { grid-template-columns: 1fr; gap: 40px; }
+      .footer-inner { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 640px) {
+      .nav-links, .nav-cta .btn { display: none; }
+      .hamburger { display: flex; }
+      .form-row { grid-template-columns: 1fr; }
+      .footer-inner { grid-template-columns: 1fr; }
+      .trust-bar-inner { gap: 16px; }
+      .hero-stats { gap: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header>
+  <nav class="container">
+    <a href="#" class="nav-logo">
+      <div class="nav-logo-icon">🏠</div>
+      <div class="nav-logo-text">
+        <strong>HSW Dienstleistungen</strong>
+        <span>Hausmeisterservice Hof</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#leistungen">Leistungen</a></li>
+      <li><a href="#warum-wir">Über uns</a></li>
+      <li><a href="#einsatzgebiet">Einsatzgebiet</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="tel:+4917642974935" class="nav-phone">📞 0176 / 42974935</a>
+      <a href="#kontakt" class="btn btn-primary" style="padding:10px 20px;font-size:0.85rem;">Anfrage senden</a>
+    </div>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+</header>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <ul>
+    <li><a href="#leistungen" onclick="toggleMenu()">Leistungen</a></li>
+    <li><a href="#warum-wir" onclick="toggleMenu()">Über uns</a></li>
+    <li><a href="#einsatzgebiet" onclick="toggleMenu()">Einsatzgebiet</a></li>
+    <li><a href="#kontakt" onclick="toggleMenu()">Kontakt</a></li>
+    <li><a href="tel:+4917642974935">📞 0176 / 42974935</a></li>
+  </ul>
+</div>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="home">
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge">Ihr Hausmeisterservice in Hof &amp; Umgebung</div>
+        <h1>Zuverlässig.<br>Professionell.<br><span>Vor Ort für Sie.</span></h1>
+        <p class="hero-desc">Von der Gartenpflege bis zum Winterdienst – wir kümmern uns um Ihr Objekt, damit Sie sich keine Sorgen machen müssen.</p>
+        <div class="hero-actions">
+          <a href="#kontakt" class="btn btn-primary">Kostenlos anfragen</a>
+          <a href="tel:+4917642974935" class="btn btn-outline">Jetzt anrufen</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><strong>7+</strong><span>Leistungen</span></div>
+          <div class="hero-stat"><strong>100%</strong><span>Zuverlässig</span></div>
+          <div class="hero-stat"><strong>Hof</strong><span>&amp; Umgebung</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card">
+          <div class="hero-card-icon">🌿</div>
+          <div class="hero-card-text"><strong>Gartenpflege</strong><span>Rasenmähen, Heckenschnitt &amp; mehr</span></div>
+        </div>
+        <div class="hero-card">
+          <div class="hero-card-icon">❄️</div>
+          <div class="hero-card-text"><strong>Winterdienst</strong><span>Schneeräumung &amp; Streudienst</span></div>
+        </div>
+        <div class="hero-card">
+          <div class="hero-card-icon">🔧</div>
+          <div class="hero-card-text"><strong>Kleinreparaturen</strong><span>Handwerksservice auf Abruf</span></div>
+        </div>
+        <div class="hero-card">
+          <div class="hero-card-icon">📦</div>
+          <div class="hero-card-text"><strong>Wohnungsauflösungen</strong><span>Entrümpelung &amp; Entsorgung</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TRUST BAR ===== -->
+<div class="trust-bar">
+  <div class="container">
+    <div class="trust-bar-inner">
+      <div class="trust-item">Faire Preise</div>
+      <div class="trust-item">Schnelle Reaktionszeit</div>
+      <div class="trust-item">Zuverlässig &amp; pünktlich</div>
+      <div class="trust-item">Persönlicher Ansprechpartner</div>
+      <div class="trust-item">Region Hof &amp; Umgebung</div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== LEISTUNGEN ===== -->
+<section class="services" id="leistungen">
+  <div class="container">
+    <div class="services-header">
+      <span class="section-label">Unsere Leistungen</span>
+      <h2 class="section-title">Alles aus einer Hand –<br>für Ihr Objekt</h2>
+      <p class="section-sub">Wir übernehmen alle anfallenden Aufgaben rund um Ihr Gebäude, Grundstück und Haushalt – zuverlässig und zu fairen Preisen.</p>
+    </div>
+    <div class="services-grid">
+
+      <div class="service-card">
+        <div class="service-icon">🏠</div>
+        <h3>Hausmeisterservice &amp; Objektbetreuung</h3>
+        <p>Professionelle Betreuung Ihrer Immobilie – damit alles läuft, wie es soll.</p>
+        <ul>
+          <li>Regelmäßige Begehungen &amp; Kontrollen</li>
+          <li>Treppenhausreinigung</li>
+          <li>Beleuchtungs- &amp; Anlagenkontrolle</li>
+          <li>Schlüsselverwaltung</li>
+        </ul>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🌿</div>
+        <h3>Gartenpflege</h3>
+        <p>Damit Ihr Garten und Grundstück immer einen gepflegten Eindruck hinterlässt.</p>
+        <ul>
+          <li>Rasenmähen &amp; Kantenstechen</li>
+          <li>Heckenschnitt &amp; Formschnitt</li>
+          <li>Laubbeseitigung</li>
+          <li>Unkrautentfernung</li>
+        </ul>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">❄️</div>
+        <h3>Winterdienst &amp; Schneeräumung</h3>
+        <p>Sicher durch den Winter – wir sorgen dafür, dass Wege und Zufahrten frei bleiben.</p>
+        <ul>
+          <li>Schneeräumung von Wegen &amp; Flächen</li>
+          <li>Streudienst (Salz / Sand)</li>
+          <li>Dachlawinen-Prävention</li>
+        </ul>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">📦</div>
+        <h3>Wohnungsauflösungen &amp; Entrümpelung</h3>
+        <p>Schnell, diskret und vollständig – wir lösen Wohnungen und Keller professionell auf.</p>
+        <ul>
+          <li>Komplette Wohnungsauflösungen</li>
+          <li>Keller- &amp; Dachbodenentrümpelung</li>
+          <li>Fachgerechte Entsorgung</li>
+          <li>Besenreine Übergabe</li>
+        </ul>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🔧</div>
+        <h3>Kleinreparaturen &amp; Handwerksservice</h3>
+        <p>Kein Auftrag zu klein – wir erledigen anfallende Reparaturen schnell und sauber.</p>
+        <ul>
+          <li>Montage &amp; Demontage</li>
+          <li>Reparaturen aller Art</li>
+          <li>Malerarbeiten</li>
+          <li>Auf Anfrage vieles mehr</li>
+        </ul>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🔑</div>
+        <h3>Betreuung leerstehender Objekte</h3>
+        <p>Ihr Objekt steht leer? Wir schauen regelmäßig nach dem Rechten.</p>
+        <ul>
+          <li>Regelmäßige Begehungen</li>
+          <li>Schadensfrüherkennung</li>
+          <li>Post- &amp; Paketannahme</li>
+          <li>Koordination von Handwerkern</li>
+        </ul>
+      </div>
+
+      <div class="service-card" style="grid-column: span 1;">
+        <div class="service-icon">🚛</div>
+        <h3>Transporte &amp; Umzüge</h3>
+        <p>Ob kleiner Transport oder kompletter Umzug – wir sind mit Fahrzeug und Mannschaft dabei.</p>
+        <ul>
+          <li>Möbel- &amp; Sperrguttransporte</li>
+          <li>Umzugshilfe vor Ort</li>
+          <li>Entsorgungsfahrten</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== WARUM WIR ===== -->
+<section class="why" id="warum-wir">
+  <div class="container">
+    <div class="why-inner">
+      <div>
+        <span class="section-label">Warum HSW Dienstleistungen?</span>
+        <h2 class="section-title">Ihr persönlicher Ansprechpartner vor Ort</h2>
+        <p class="section-sub">Als lokales Unternehmen aus der Region kennen wir die Bedürfnisse unserer Kunden. Kein Call-Center, kein Durchstellen – Sie sprechen direkt mit dem Chef.</p>
+        <div class="why-features">
+          <div class="why-feature">
+            <div class="why-feature-icon">⚡</div>
+            <div class="why-feature-text">
+              <h4>Schnelle Reaktionszeit</h4>
+              <p>Kurze Wege, schnelle Absprachen. Wir sind zeitnah für Sie da.</p>
+            </div>
+          </div>
+          <div class="why-feature">
+            <div class="why-feature-icon">💰</div>
+            <div class="why-feature-text">
+              <h4>Faire &amp; transparente Preise</h4>
+              <p>Keine versteckten Kosten – klare Angebote vor Beginn der Arbeit.</p>
+            </div>
+          </div>
+          <div class="why-feature">
+            <div class="why-feature-icon">🤝</div>
+            <div class="why-feature-text">
+              <h4>Persönlicher Service</h4>
+              <p>Sie haben immer denselben Ansprechpartner – Sebastian Wanke persönlich.</p>
+            </div>
+          </div>
+          <div class="why-feature">
+            <div class="why-feature-icon">📍</div>
+            <div class="why-feature-text">
+              <h4>Aus der Region, für die Region</h4>
+              <p>Wir arbeiten ausschließlich in Hof und dem näheren Umland.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="why-visual">
+        <div class="why-stat-card">
+          <strong>Ihr Vorteil</strong>
+          <span>Direkt, zuverlässig &amp; regional</span>
+        </div>
+        <div class="why-stat-card">
+          <strong style="color:var(--primary)">7+</strong>
+          <span>Leistungen aus einer Hand</span>
+        </div>
+        <div class="why-stat-card">
+          <strong style="color:var(--primary)">100%</strong>
+          <span>Persönlicher Kontakt</span>
+        </div>
+        <div class="why-stat-card">
+          <strong style="color:var(--primary)">∞</strong>
+          <span>Flexibel &amp; auf Abruf</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EINSATZGEBIET ===== -->
+<section class="area" id="einsatzgebiet">
+  <div class="container">
+    <div class="area-header">
+      <span class="section-label">Einsatzgebiet</span>
+      <h2 class="section-title">Tätig in Hof und Umgebung</h2>
+      <p class="section-sub" style="margin:0 auto;">Wir sind in Hof und den umliegenden Gemeinden für Sie im Einsatz. Sie sind sich nicht sicher, ob wir in Ihrer Nähe tätig sind? Fragen Sie einfach an!</p>
+    </div>
+    <div class="area-tags">
+      <span class="area-tag">Hof</span>
+      <span class="area-tag">Rehau</span>
+      <span class="area-tag">Münchberg</span>
+      <span class="area-tag">Naila</span>
+      <span class="area-tag">Selb</span>
+      <span class="area-tag">Leupoldsgrün</span>
+      <span class="area-tag">Schwarzenbach a. d. Saale</span>
+      <span class="area-tag">Kirchenlamitz</span>
+      <span class="area-tag">Und Umgebung</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== KONTAKT ===== -->
+<section class="contact" id="kontakt">
+  <div class="container">
+    <div class="contact-inner">
+      <div class="contact-info">
+        <span class="section-label">Kontakt aufnehmen</span>
+        <h2 class="section-title">Kostenlos anfragen –<br>wir melden uns schnell!</h2>
+        <p>Haben Sie Fragen oder möchten Sie ein Angebot? Schreiben Sie uns oder rufen Sie direkt an – wir freuen uns auf Sie.</p>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="contact-item-icon">📞</div>
+            <div class="contact-item-text">
+              <span>Telefon</span>
+              <a href="tel:+4917642974935">0176 / 42974935</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">✉️</div>
+            <div class="contact-item-text">
+              <span>E-Mail</span>
+              <a href="mailto:info@hausmeisterservice-hof.com">info@hausmeisterservice-hof.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">📍</div>
+            <div class="contact-item-text">
+              <span>Standort</span>
+              <strong>Leupoldsgrün / Hof, Bayern</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form">
+        <h3>Anfrage senden</h3>
+        <form action="mailto:info@hausmeisterservice-hof.com" method="post" enctype="text/plain">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Ihr Name *</label>
+              <input type="text" id="name" name="name" placeholder="Max Mustermann" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Telefonnummer</label>
+              <input type="tel" id="phone" name="phone" placeholder="0176 / ..." />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">E-Mail-Adresse *</label>
+            <input type="email" id="email" name="email" placeholder="ihre@email.de" required />
+          </div>
+          <div class="form-group">
+            <label for="service">Gewünschte Leistung</label>
+            <select id="service" name="service">
+              <option value="">Bitte wählen...</option>
+              <option>Hausmeisterservice &amp; Objektbetreuung</option>
+              <option>Gartenpflege</option>
+              <option>Winterdienst &amp; Schneeräumung</option>
+              <option>Wohnungsauflösung &amp; Entrümpelung</option>
+              <option>Kleinreparaturen &amp; Handwerksservice</option>
+              <option>Betreuung leerstehender Objekte</option>
+              <option>Transporte &amp; Umzüge</option>
+              <option>Sonstiges</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Ihre Nachricht *</label>
+            <textarea id="message" name="message" placeholder="Beschreiben Sie kurz Ihr Anliegen..." required></textarea>
+          </div>
+          <button type="submit" class="form-submit">Nachricht senden →</button>
+          <p class="form-note">* Pflichtfelder. Ihre Daten werden nur zur Bearbeitung Ihrer Anfrage verwendet.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <div class="footer-logo-icon">🏠</div>
+          <div class="footer-logo-text">
+            <strong>HSW Dienstleistungen</strong>
+            <span>Hausmeisterservice Hof</span>
+          </div>
+        </div>
+        <p>Ihr zuverlässiger Partner rund um Haus, Garten und Objekt in Hof und Umgebung. Persönlich, fair und professionell.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Leistungen</h4>
+        <ul>
+          <li><a href="#leistungen">Hausmeisterservice</a></li>
+          <li><a href="#leistungen">Gartenpflege</a></li>
+          <li><a href="#leistungen">Winterdienst</a></li>
+          <li><a href="#leistungen">Wohnungsauflösungen</a></li>
+          <li><a href="#leistungen">Kleinreparaturen</a></li>
+          <li><a href="#leistungen">Transporte &amp; Umzüge</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Unternehmen</h4>
+        <ul>
+          <li><a href="#warum-wir">Über uns</a></li>
+          <li><a href="#einsatzgebiet">Einsatzgebiet</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+          <li><a href="impressum.html">Impressum</a></li>
+          <li><a href="datenschutz.html">Datenschutz</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 HSW Dienstleistungen – Sebastian Wanke, Leupoldsgrün</span>
+      <div style="display:flex;gap:20px;">
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  function toggleMenu() {
+    document.getElementById('mobileMenu').classList.toggle('open');
+  }
+  // Close mobile menu on outside click
+  document.addEventListener('click', function(e) {
+    const menu = document.getElementById('mobileMenu');
+    const hamburger = document.querySelector('.hamburger');
+    if (!menu.contains(e.target) && !hamburger.contains(e.target)) {
+      menu.classList.remove('open');
+    }
+  });
+  // Smooth active nav highlight on scroll
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.nav-links a');
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(s => {
+      if (window.scrollY >= s.offsetTop - 100) current = s.id;
+    });
+    navLinks.forEach(a => {
+      a.style.color = a.getAttribute('href') === '#' + current ? 'var(--primary)' : '';
+    });
+  });
+</script>
+
+</body>
+</html>
